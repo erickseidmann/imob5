@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.nav-bar{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+
+/*LOGO*/
+
+.logo{
+    width: 160px;
+    height: 180px;
+    opacity: 0.8;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.nav-bar a img:hover{
+    opacity: 1;
+}
+
+
+/* MENU NAVEGAÇÃO*/
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+}
+
+li{
+    list-style-type: none;
+    padding:10px 20px;
+    border-right: black solid 1px;
+}
+
+li a{
+    text-decoration: none;
+    transition: all a.3s ease 0s;
+    padding: 20px 0px;
+    color: #10b3ae;
+    font-size: 16px;   
+}
+
+li a:hover{
+    color: rgb(37, 39, 151);
+}
+
+
+/*BOTÃO ANIMADO*/
+
+.login-btn{
+    display: flex;
+    position: relative;
+    width: 130px;
+    height: 55px;
+    border-radius:10px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.login-btn::before{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: conic-gradient(#053472,#abe3eb);
+    animation: efeito 1.3s ease infinite;
+    transition: 1s ease;
+}
+
+    @keyframes efeito {
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+
+    .login-btn a{
+        position: absolute;
+        z-index: 1;
+        display: block;
+        width: 147px;
+        height: 52px;
+        background-color: #10b3ae;
+        text-align: center;
+        line-height: 52px;
+        border-radius: 6px;
+        text-decoration: none;
+        color: #011312;
+        opacity: 1;
+        letter-spacing: 1px;
+    }
+
+    .login-btn a:hover{
+        color: rgba(255, 255, 255, 0.7);
+    }
