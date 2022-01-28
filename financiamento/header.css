@@ -1,9 +1,11 @@
 *{
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
 
 
 .nav-bar{
@@ -12,17 +14,23 @@
     justify-content: space-between;
     align-items: center;
     padding: 0px 30px;
+    background-color: #fff;
+    height: 108px;
+    width: 105vw;
+
+   
 }
 
 
 /*LOGO*/
 
-.logo{
+.logo img{
     width: 160px;
     height: 180px;
     opacity: 0.8;
     margin-left: 20px;
-    padding-top: 20px;
+    padding-top: 0px;
+    
 }
 
 .nav-bar a img:hover{
@@ -36,12 +44,13 @@ ul{
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
+    
 }
 
 li{
     list-style-type: none;
     padding:10px 20px;
-    border-right: black solid 1px;
+   
 }
 
 li a{
@@ -50,6 +59,7 @@ li a{
     padding: 20px 0px;
     color: #10b3ae;
     font-size: 16px;   
+   
 }
 
 li a:hover{
@@ -106,3 +116,5 @@ li a:hover{
     .login-btn a:hover{
         color: rgba(255, 255, 255, 0.7);
     }
+
+    

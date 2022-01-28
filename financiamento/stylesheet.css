@@ -1,0 +1,155 @@
+
+html,body{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(216, 214, 214);
+
+}
+.box {
+    
+    position: absolute;
+    width: 105vw;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(imgs/imagem_financiamento.jpg);
+    opacity: 0.6;
+    transition: 1.5s;
+    background-repeat: no-repeat;
+}
+
+.box:hover {
+    opacity: 1.0;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    padding: 10px;
+}
+.titulo h2{
+    display: flex;
+    position: relative;
+    background-color: #10b3ae;
+    border-radius: 60px;
+    color: #011312;
+    font-size: 30px;
+    width: 500px;
+    text-align: center;
+    left: 20vw;
+    top: 300px;
+}
+
+.texto_titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    padding: 10px;
+}
+.texto_titulo p{
+    
+    position: relative;
+    background-color: #e8f8f8;
+    border-radius: 60px;
+    color: #011312;
+    font-size: 20px;
+    width: 700px;
+    text-align: center;
+    left: 10vw;
+    top: -57px;
+    
+}
+
+/* .box p{
+    position: absolute;
+    width: 650px;
+    left: 1000px;
+    top: 600px;
+    text-align: center;
+    background-color: #e4e4e4;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-size: 20px;
+    color: rgb(10, 10, 10); 
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+} */
+.bancos_principal{
+    display: flex;
+}
+.bancos img{
+    /* width: 60px;
+    height: 60px; */
+    position: relative;
+    left: 93px;
+    top: 910px;
+    margin: 10px; 
+    border-radius: 30px;
+    cursor: pointer;
+    
+   
+}
+
+.simular h2{
+    font-size: 50px;
+    position: relative;
+    top: 890px;
+    left: 100px;
+}
+.simular p{
+    position: relative;
+    top: 900px;
+    left: 100px;
+    font-size: 30px;
+}
+
+.simular_2 p{
+    position: relative;
+    top:930px;
+    left: 100px;
+    font-size: 30px;
+}
+
+.caixas_simulador input{
+    border: 1px solid hsl(120, 2%, 24%);
+    border-radius: 16px;
+    width: 700px;
+    height: 35px;
+    font-size: 20px;
+
+    /*margin: 0.6%;*/
+    
+    
+}
+
+.caixas_simulador {
+    position: relative;
+    width: 700px;
+    height: 32px;
+    left: 50px;
+    top: 1000px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 32px;
+    /*align-items: center;*/
+    text-align: left;
+    margin: 0.6%;
+}
+
+
+.final{
+    position: relative;
+    width:1500px;
+    height: 403px;
+    left: -754px;
+    top: 2000px;
+    background-color: black;
+
+}
