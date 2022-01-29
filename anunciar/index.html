@@ -6,19 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anunciar</title>
 
-<link rel="stylesheet header" href="../style-header.css">
-<link rel="stylesheet página" href="./style-anunciar.css">
+<link rel="stylesheet header" href="./CSS/style-header.css">
+<link rel="stylesheet página" href="./CSS/style-anunciar.css">
+<link rel="stylesheet formulário" href="./CSS/style-form.css" >
 
 </head>
+
 <body>
     
-    <section class="top-container">
+    <section>
 
         <header>
 
             <section class="nav-bar">
 
-                <a href="#" class="logo"><img src="../imagens pi/logo imob.png"></a>
+                <a href="#" class="logo"><img src="./images/logo imob.png"></a>
 
                 <nav>
 
@@ -43,64 +45,67 @@
 
             <section>
 
-                <div>
+                <div class="banner-div">
 
-                    <img id="img0001" src="../imagens pi/happy-professional.jpg">
-
+                    <div class="text-div">
+                    
                     <h1>Cadastre seu imóvel com total segurança</h1>
-                    <p id="p0001">Preencha o formulário e cadastre o seu imóvel para venda ou locação.</p>
-                    <p id="p0002">Em breve um de nossos consultores entrará em contato para confirmar o cadastro e apresentar as estratégias da nossa empresa para divulgação e comercialização do seu imóvel.</p>
+            
+                    <p>Preencha o formulário e cadastre o seu imóvel para venda ou locação.</p>
+
+                    <p>Em breve um de nossos consultores entrará em contato para confirmar o cadastro e apresentar as estratégias da nossa empresa para divulgação e comercialização do seu imóvel.</p>
+                    
+                    </div>
 
                 </div>
 
             </section>
 
-            <section>
+            <section class="form-container">
 
-                <div>
+                <div class="left-div">
 
-                    <img id="img0002" src="../imagens pi/predio-consultoria.jpg">
-
-                    <form action="../anunciar/destino temporário formulário/anuncios.txt" method="POST">
-
-                        <label for="nome">Nome: </label>
-                        <input type="text" name="nome" id="nome" required>
-
-                        <label for="sobrenome">Sobrenome: </label>
-                        <input type="text" name="sobrenome" id="sobrenome" required>
-
-                        <label for="email">Email: </label>
-                        <input type="email" name="email" id="email" required>
-
-                        <label for="celular">DDD + Celular/Whatsapp: </label>
-                        <input type="number" name="celular" id="celular" required>
-
-                        <label for="cep">CEP: </label>
-                        <input type="number" name="cep" id="cep" required>
-
-                        <label for="cidade">Cidade: </label>
-                        <input type="text" name="cidade" id="cidade" required>
-
-                        <label for="endereço">Endereço com número: </label>
-                        <input type="text" name="endereço" id="endereço" required>
-
-                        <label for="complemento">Complemento: </label>
-                        <input type="text" name="complemento" id="complemento" required>
-
-                        <label for="bairro">Bairro: </label>
-                        <input type="text" name="bairro" id="bairro" required>
-
-                        <label for="">Tipo do imóvel: </label>
-                        <input type="" name="" id="" required>
-
-                        <label for="">Condição do imóvel: </label>
-                        <input type="" name="" id="" required>
-
-                        <input type="submit" value="Enviar">
-
-                    </form>
+                    <div class="img-flexbox"></div>
 
                 </div>
+
+                <div class="right-div">
+
+                    <div class="form">
+
+                        <form action="../anunciar/form-destiny/form-destiny.txt" method="POST">
+
+                            <input type="text" name="nome" id="nome" placeholder="Nome" required>
+
+                            <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" required>
+
+                            <input type="email" name="email" id="email" placeholder="E-mail" required>
+
+                            <input type="number" name="celular" id="celular" placeholder="DDD+Celular/Whatsapp" required>
+
+                            <input type="number" name="cep" id="cep" placeholder="CEP" required>
+
+                            <input type="text" name="cidade" id="cidade" placeholder="Cidade" required>
+
+                            <input type="text" name="endereço" id="endereço" placeholder="Endereço + Número" required>
+
+                            <input type="text" name="complemento" id="complemento" placeholder="Complemento" required>
+
+                            <input type="text" name="bairro" id="bairro" placeholder="Bairro" required>
+
+                            <input type="text" name="tipo-do-imovel" id="tipo-do-imovel" placeholder="Tipo do imóvel" required>
+
+                            <input type="text" name="condicao-do-imovel" id="condicao-do-imovel" placeholder="Condição do imóvel" required>
+
+                            <input type="submit" value="Enviar">
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+             </div>
 
             </section>
 

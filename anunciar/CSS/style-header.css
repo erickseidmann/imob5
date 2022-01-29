@@ -5,13 +5,18 @@
     font-family: sans-serif;
 }
 
+
 .nav-bar{
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 0px 30px;
 }
+
+
+/*LOGO*/
 
 .nav-bar a img{
     width: 160px;
@@ -21,6 +26,13 @@
     padding-top: 20px;
 }
 
+.nav-bar a img:hover{
+    opacity: 1;
+}
+
+
+/* MENU NAVEGAÇÃO*/
+
 ul{
     display: flex;
     flex-wrap: wrap;
@@ -29,20 +41,24 @@ ul{
 
 li{
     list-style-type: none;
-    padding: 10px 20px;
-    border-right: solid 1px black;
+    padding:10px 20px;
+    border-right: black solid 1px;
 }
 
 li a{
     text-decoration: none;
+    transition: all a.3s ease 0s;
     padding: 20px 0px;
     color: #10b3ae;
-    font-size: 16px;
+    font-size: 16px;   
 }
 
 li a:hover{
     color: rgb(37, 39, 151);
 }
+
+
+/*BOTÃO ANIMADO*/
 
 .login-btn{
     display: flex;
@@ -91,3 +107,4 @@ li a:hover{
     .login-btn a:hover{
         color: rgba(255, 255, 255, 0.7);
     }
+
