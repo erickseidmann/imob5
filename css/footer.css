@@ -1,5 +1,153 @@
-.main {
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e6ecf0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+
+/**Header*/
+
+body#header_principal {
     display: flex;
     flex-wrap: wrap;
-    flex: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50vh;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px 20px;
+    border-right: black solid 1px;
+}
+
+header#header_principal div.login button {
+    height: 34px;
+    background: #4BC0C8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    border: 0;
+    border-radius: 16px;
+}
+
+header#header_principal div.login input {
+    width: 220px;
+    border: 1 px solid #e6ecf0;
+    height: 34px;
+    padding: 0 30px 0 12px;
+    border-radius: 16px;
+    color: #667581;
+    font-size: 12px;
+    background: #f5f8fa url('images/search.svg') no-repeat 198px center;
+}
+
+header#header_principal div.login {
+    display: flex;
+}
+
+header#header_principal div.login img {
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    margin: 0 15px;
+}
+
+header#header_principal nav ul li img {
+    margin-right: 7px;
+}
+
+header#header_principal nav ul li:first-child {
+    margin: 0px;
+}
+
+header#header_principal nav ul li {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: #567588;
+    font-size: bold;
+    margin-left: 30px;
+}
+
+
+/**Fotter*/
+
+.footer {
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    flex-wrap: wrap;
+    color: azure;
+    background: #6A6A6A;
+}
+
+.div-map {
+    display: flex;
+    padding: 2%;
+    width: 30%;
+}
+
+.div-map iframe {
+    display: flex;
+    width: 100%;
+    border-radius: 5%;
+}
+
+.div-adress {
+    display: flexbox;
+    padding: 2rem;
+}
+
+.div-social-media {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.sm-icons {
+    flex-direction: row;
+}
+
+.sm-icons img {
+    width: 4rem;
+    padding: 10px;
+    align-content: space-between;
+}
+
+.div-logo {
+    flex-direction: row;
+}
+
+.div-logo img {
+    width: 12rem;
+}
+
+.div-site-map {
+    padding: 2%;
+}
+
+.ul-links {
+    flex-direction: column;
+}
+
+.ul-links li {
+    padding-left: 0;
 }
