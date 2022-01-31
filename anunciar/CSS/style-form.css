@@ -1,0 +1,23 @@
+/* FORMULARIO DA DIREITA */
+.form{
+    width: 60%;
+    height: 80%;
+    margin-top: 26vh; 
+}
+
+.input{
+    width: 20vw;
+    height: 3vh;
+    margin-left: 8vw;
+    margin-bottom: 2vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input-bottom{
+    width: 10vw;
+    height: 3vh;
+    color: rgb(68, 156, 152);
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 13vw;
+}

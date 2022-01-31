@@ -52,7 +52,6 @@
     align-items: center;
     width: 40vw;
     height: 100vh;
-    border: solid black 1px;
 }
 
 /* IMAGEM DA ESQUERDA */
@@ -75,11 +74,4 @@
     width: 60vw;
     height: 100vh;
    
-}
-
-/* FORMULARIO DA DIREITA */
-.form{
-    width: 60%;
-    height: 80%; 
-    border: solid rgb(177, 19, 19) 1px;
 }
