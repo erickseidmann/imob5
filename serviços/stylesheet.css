@@ -15,7 +15,7 @@ html,body{
     height: 100vh;
     background-size: cover;
     background-image: url(imgs/servicos.jpg);
-    opacity: 0.6;
+    opacity: 0.9;
     transition: 1.5s;
     background-repeat: no-repeat;
 }
@@ -37,8 +37,8 @@ html,body{
     background-color: #10b3ae;
     border-radius: 60px;
     color: #011312;
-    font-size: max(30px,1vw);
-    font-size: min(30px,3vw);
+    font-size: max(40px,1vw);
+    font-size: min(40px,3vw);
     width: 350px;
     text-align: center;
     top: 300px;
@@ -46,7 +46,8 @@ html,body{
 
 .texto_titulo1{
     display: flex;
-    margin-left: 100px;
+
+    margin: -2%;
     justify-content: justify;
     /* height: 50vh; */
     padding: 1px;
@@ -58,9 +59,9 @@ html,body{
     background-color: #cdcfcf;
     border-radius: 60px;
     color: #011312;
-    font-size: max(20px,1vw);
-    font-size: min(20px,3vw);
-    width: 500px;
+    font-size: max(30px,1vw);
+    font-size: min(30px,3vw);
+    width: 760px;
     text-align: center;
     top: 300px;
 
@@ -68,7 +69,8 @@ html,body{
 
 .texto_titulo2{
     display: flex;
-    margin-left: 100px;
+
+    margin: -2%;
     justify-content: justify;
     /* height: 50vh; */
     padding: 1px;
@@ -79,16 +81,17 @@ html,body{
     background-color: #cdcfcf;
     border-radius: 60px;
     color: #011312;
-    font-size: max(20px,1vw);
-    font-size: min(20px,3vw);
-    width: 500px;
+    font-size: max(30px,1vw);
+    font-size: min(30px,3vw);
+    width: 760px;
     text-align: center;
     top: 300px;
 }
 
 .texto_titulo3{
     display: flex;
-    margin-left: 100px;
+
+    margin: -2%;
     justify-content: justify;
     /* height: 50vh; */
     padding: 1px;
@@ -100,9 +103,9 @@ html,body{
     background-color: #cdcfcf;
     border-radius: 60px;
     color: #011312;
-    font-size: max(20px,1vw);
-    font-size: min(20px,3vw);
-    width: 500px;
+    font-size: max(30px,1vw);
+    font-size: min(30px,3vw);
+    width: 760px;
     text-align: center;
     top: 300px;
 
@@ -110,7 +113,8 @@ html,body{
 
 .texto_titulo4{
     display: flex;
-    margin-left: 100px;
+
+    margin: -2%;
     justify-content: justify;
     /* height: 50vh; */
     padding: 1px;
@@ -122,9 +126,9 @@ html,body{
     background-color: #cdcfcf;
     border-radius: 60px;
     color: #011312;
-    font-size: max(20px,1vw);
-    font-size: min(20px,3vw);
-    width: 500px;
+    font-size: max(30px,1vw);
+    font-size: min(30px,3vw);
+    width: 760px;
     text-align: center;
     top: 300px;
 
@@ -132,7 +136,8 @@ html,body{
 
 .texto_titulo5{
     display: flex;
-    margin-left: 100px;
+
+    margin: -2%;
     justify-content: justify;
     /* height: 50vh; */
     padding: 1px;
@@ -143,9 +148,9 @@ html,body{
     background-color: #cdcfcf;
     border-radius: 60px;
     color: #011312;
-    font-size: max(20px,1vw);
-    font-size: min(20px,3vw);
-    width: 500px;
+    font-size: max(30px,1vw);
+    font-size: min(30px,3vw);
+    width: 760px;
     text-align: center;
     top: 300px;
 

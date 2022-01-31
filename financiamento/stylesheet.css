@@ -16,7 +16,7 @@ html,body{
     height: 100vh;
     background-size: cover;
     background-image: url(imgs/imagem_financiamento.jpg);
-    opacity: 0.6;
+    opacity: 0.8;
     transition: 1.5s;
     background-repeat: no-repeat;
 }
@@ -31,6 +31,7 @@ html,body{
     justify-content: right;
     /* height: 50vh; */
     padding: 10px;
+    margin: 0,6%;
 }
 .titulo h2{
 
@@ -38,11 +39,12 @@ html,body{
     background-color: #10b3ae;
     border-radius: 60px;
     color: #011312;
-    font-size: max(30px,1vw);
-    font-size: min(30px,3vw);
-    width: 550px;
+    font-size: max(50px,1vw);
+    font-size: min(50px,3vw);
+    width: 700px;
     text-align: center;
     top: 300px;
+    margin-right: 30px;
 }
 
 .texto_titulo1{
@@ -51,6 +53,7 @@ html,body{
     justify-content: right;
     /* height: 50vh; */
     padding: 1px;
+    margin-right: 30px;
 
 }
 .texto_titulo1 p{
@@ -59,9 +62,9 @@ html,body{
     background-color: #dfe9e8;
     border-radius: 60px;
     color: #011312;
-    font-size: max(20px,1vw);
-    font-size: min(20px,3vw);
-    width: 700px;
+    font-size: max(30px,1vw);
+    font-size: min(30px,3vw);
+    width: 850px;
     text-align: center;
     top: 300px;
 
@@ -73,6 +76,8 @@ html,body{
     justify-content: right;
     /* height: 50vh; */
     padding: 1px;
+    margin: -2%;
+    margin-right: 30px;
 
 }
 .texto_titulo2 p{
@@ -81,9 +86,9 @@ html,body{
     background-color: #dfe9e8;
     border-radius: 60px;
     color: #011312;
-    font-size: max(20px,1vw);
-    font-size: min(20px,3vw);
-    width: 700px;
+    font-size: max(30px,1vw);
+    font-size: min(30px,3vw);
+    width: 850px;
     text-align: center;
     top: 300px;
 
@@ -95,6 +100,8 @@ html,body{
     justify-content: right;
     /* height: 50vh; */
     padding: 1px;
+    margin: -2%;
+    margin-right: 30px;
 
 }
 .texto_titulo3 p{
@@ -103,9 +110,10 @@ html,body{
     background-color: #dfe9e8;
     border-radius: 60px;
     color: #011312;
-    font-size: max(20px,1vw);
-    font-size: min(20px,3vw);
-    width: 700px;
+    font-size: max(30px,1vw);
+    font-size: min(30px,3vw);
+    width: 850px;
+
     text-align: center;
     top: 300px;
 
@@ -117,6 +125,8 @@ html,body{
     justify-content: right;
     /* height: 50vh; */
     padding: 1px;
+    margin: -2%;
+     margin-right: 30px;
 
 }
 .texto_titulo4 p{
@@ -125,9 +135,9 @@ html,body{
     background-color: #dfe9e8;
     border-radius: 60px;
     color: #011312;
-    font-size: max(20px,1vw);
-    font-size: min(20px,3vw);
-    width: 700px;
+    font-size: max(30px,1vw);
+    font-size: min(30px,3vw);
+    width: 850px;
     text-align: center;
     top: 300px;
 
@@ -139,6 +149,8 @@ html,body{
     justify-content: right;
     /* height: 50vh; */
     padding: 1px;
+    margin: -2%;
+    margin-right: 30px;
 
 }
 .texto_titulo5 p{
@@ -147,9 +159,9 @@ html,body{
     background-color: #dfe9e8;
     border-radius: 60px;
     color: #011312;
-    font-size: max(20px,1vw);
-    font-size: min(20px,3vw);
-    width: 700px;;
+    font-size: max(30px,1vw);
+    font-size: min(30px,3vw);
+    width: 850px;
     text-align: center;
     top: 300px;
 
