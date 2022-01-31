@@ -21,6 +21,7 @@ a.links {
     width: 500px;
     min-height: 560px;
     margin: 0px auto;
+    padding-top: 50%;
     position: relative;
 }
 
