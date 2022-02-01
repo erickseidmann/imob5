@@ -1,4 +1,19 @@
-/* FORMULARIO DA DIREITA */
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 576px){
+
+    /* SMALL */
+}
+
+@media (min-width: 768px){
+
+    /* MEDIUM */
+    
+    /* FORMULARIO DA DIREITA */
 .form{
     width: 60%;
     height: 80%;
@@ -20,4 +35,6 @@
     font-weight: 700;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 13vw;
+}
+
 }
