@@ -62,7 +62,7 @@ body {
 }
 
 .footer-div-logo img {
-    width: 25rem;
+    width: 20rem;
     align-self: flex-end;
 }
 
@@ -72,15 +72,16 @@ body {
 
 .footer-ul-links {
     flex-direction: column;
-    ;
 }
 
 .footer-ul-links li {
     padding-left: 0;
 }
 
-#back-to-top {
-    align-self: center;
+.btn-topo {
+    align-self: flex-end;
+    position: relative;
+    flex-direction: column;
 }
 
 
