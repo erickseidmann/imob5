@@ -1,5 +1,5 @@
 # imob5
-<h1>Projeto de Integrtação do Curso Full Stack Web Dev - Digital House</h1>
+<h1>Projeto de Integração do Curso Full Stack Web Dev - Digital House</h1>
 Início em 11/2021
 <h3>Equipe 07</h3>
 <ul>
